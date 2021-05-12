@@ -1,0 +1,30 @@
+PROTO GoalPost [
+  field SFVec3f    translation     0 0 0
+  field SFRotation rotation        0 1 0 0
+  field SFString   name            "goal_post"
+  field SFString   contactMaterial "default"                    # Is `Solid.contactMaterial`.
+  field SFColor    frameColor     1 1 1                        # Defines the color of the goal frame.
+  field SFFloat    postRadius      0.05                         # Defines the radius of the goal posts.
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      Shape {
+        appearance PBRAppearance {
+            metalness 0
+            emissiveIntensity 6
+            baseColor IS frameColor
+          }
+          geometry Cylinder {
+            height 0.3
+            radius IS postRadius
+          }
+      }
+    ]
+    name IS name
+    contactMaterial IS contactMaterial
+    locked TRUE
+  }
+}

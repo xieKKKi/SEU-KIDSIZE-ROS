@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start debuger -->
+  <node pkg="action" type="action_debuger" name="action_debuger" output="screen"/>
+</launch>

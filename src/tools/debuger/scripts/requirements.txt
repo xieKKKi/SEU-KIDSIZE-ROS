@@ -1,0 +1,4 @@
+pydot==1.4.1
+pygraphviz==1.5
+PyQt5==5.15.0
+roslibpy==1.0.0

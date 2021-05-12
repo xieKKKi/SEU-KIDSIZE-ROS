@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/nvidia/SEU-Kidsize/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/nvidia/SEU-Kidsize/src/common/include/**",
+        "/home/nvidia/SEU-Kidsize/src/config/include/**",
+        "/home/nvidia/SEU-Kidsize/src/libraries/darknet/include/**",
+        "/home/nvidia/SEU-Kidsize/src/libraries/robot/include/**",
+        "/home/nvidia/SEU-Kidsize/src/libraries/seuimage/include/**",
+        "/home/nvidia/SEU-Kidsize/src/libraries/seumath/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

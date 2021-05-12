@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start params_update -->
+  <node pkg="start" type="params_update" name="params_update" output="screen"/>
+</launch>

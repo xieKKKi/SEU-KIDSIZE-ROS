@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start update -->
+  <node pkg="start" type="params_update" name="params_update" output="screen">
+    <param name="gamectrl"  type="bool" value="true"/>
+  </node>
+  <!-- start player -->
+  <node pkg="player" type="player" name="player" output="screen"/>
+  <!-- start motion -->
+  <node pkg="motion" type="motion" name="motion" output="screen"/>
+  <!-- start gamectrl -->
+  <node pkg="gamectrl" type="gamectrl" name="gamectrl" output="screen"/>
+  <!-- start vision -->
+  <node pkg="vision" type="vision" name="vision" output="screen" />
+  <!-- start control -->
+  <node pkg="control" type="control" name="control" output="screen" />
+</launch>

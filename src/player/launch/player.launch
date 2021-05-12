@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start update -->
+  <include file="$(find start)/launch/update_params.launch" />
+  <!-- start player -->
+  <node pkg="player" type="player" name="player" output="screen"/>
+</launch>

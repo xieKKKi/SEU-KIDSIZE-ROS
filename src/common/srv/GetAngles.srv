@@ -1,0 +1,6 @@
+string player
+---
+int32 start_id
+float32[] degs
+HeadAngles head
+BodyAngles body

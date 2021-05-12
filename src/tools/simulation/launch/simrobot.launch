@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start controller -->
+  <node pkg="simulation" type="simrobot_launcher.sh" name="simrobot" output="screen"/>
+</launch>

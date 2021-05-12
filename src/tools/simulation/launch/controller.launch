@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start controller -->
+  <node pkg="simulation" type="controller_launcher.sh" name="controller" output="screen"/>
+</launch>

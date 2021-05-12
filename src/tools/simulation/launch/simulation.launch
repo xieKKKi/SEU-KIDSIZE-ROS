@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find simulation)/launch/webots.launch" />
+  <include file="$(find simulation)/launch/simrobot.launch" />
+</launch>

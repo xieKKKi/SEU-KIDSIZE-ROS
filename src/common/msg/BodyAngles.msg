@@ -1,0 +1,17 @@
+float32 left_hip_yaw
+float32 left_hip_roll
+float32 left_hip_pitch
+float32 left_knee
+float32 left_ankle_pitch
+float32 left_ankle_roll
+float32 right_hip_yaw
+float32 right_hip_roll
+float32 right_hip_pitch
+float32 right_knee
+float32 right_ankle_pitch
+float32 right_ankle_roll
+float32 left_shoulder
+float32 left_elbow
+float32 right_shoulder
+float32 right_elbow
+uint32 time

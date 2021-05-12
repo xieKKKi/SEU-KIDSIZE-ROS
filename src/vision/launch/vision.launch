@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start update -->
+  <include file="$(find start)/launch/update_params.launch" />
+  <!-- start vision -->
+  <node pkg="vision" type="vision" name="vision" output="screen"/>
+</launch>

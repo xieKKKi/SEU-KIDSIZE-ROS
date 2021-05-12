@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start update -->
+  <node pkg="start" type="params_update" name="params_update" output="screen" />
+  <!-- start rosbridge_server -->
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
+  <!-- start debuger -->
+  <node pkg="action" type="action_debuger" name="action_debuger" output="screen"/>
+</launch>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start update -->
+  <include file="$(find start)/launch/update_params.launch" />
+  <!-- start motion -->
+  <node pkg="motion" type="motion" name="motion" output="screen"/>
+</launch>

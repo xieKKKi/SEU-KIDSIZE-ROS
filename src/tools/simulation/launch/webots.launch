@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="world" value="$(find simulation)/webots/worlds/sim-robot.wbt" doc="Path to the world to load"/>
+  <arg name="mode" value="realtime" doc="Startup mode"/>
+  <arg name="no-gui" value="false" doc="Start Webots with minimal GUI"/>
+  <node pkg="simulation" type="webots_launcher.py" name="webots" args="--world=$(arg world) --mode=$(arg mode) --no-gui=$(arg no-gui)" required="true"/>
+</launch>
